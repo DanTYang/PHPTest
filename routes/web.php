@@ -13,13 +13,6 @@
 
 Route::get('/', function ()
 {
-    return view('welcome');
+    return view('queue');
 });
-Route::get('/register', function ()
-{
-    return view('welcome');
-});
-Route::get('/pick', function ()
-{
-    return view('welcome');
-});
+Route::get("queue",'queue');
